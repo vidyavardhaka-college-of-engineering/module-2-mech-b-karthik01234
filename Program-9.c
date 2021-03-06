@@ -15,7 +15,7 @@ int main()
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
 
- 
+  //printf("Enter search element");
   scanf("%d", &search);
 
   for (c = 0; c < n; c++)
@@ -28,7 +28,7 @@ int main()
     }
   }
   if (c == n)
-    printf("%d is not present in the array", );
+    printf("%d is not present in the array",search );
 
   return 0;
 }
